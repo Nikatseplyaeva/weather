@@ -1,0 +1,158 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    width: 768px;
+    height: 1090px;
+    background: linear-gradient(150.64deg, #8E2DE2 0%, #4A00E0 100%);
+    text-align: center;
+}
+
+:root {
+    --color-white: #ffffff;
+}
+
+.container {
+    max-width: 1226px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.btn-reset {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    opacity: 0.6;
+    background-color: transparent;
+    color: var(--color-white);
+}
+.header {
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__name {
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.city__name {
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 31px;
+    padding-top: 242px;
+    color: var(--color-white);
+}
+
+.city__change {
+    font-size: 18px;
+    text-decoration: underline;
+    padding-top: 6px;
+}
+
+
+.city__location {
+    font-size: 18px;
+}
+
+.unit-current {
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 1;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 222px;
+    padding-bottom: 47px;
+}
+
+.search_input {
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 68px;
+    font-size: 25px;
+    color: #8124e1;
+    padding-left: 20px;
+}
+
+.search_btn {
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background-color: #fff;
+    height: 70px;
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 36px;
+    color: #771ee1;
+}
+
+.search__error {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 15%);
+    padding: 15px;
+    font-size: 25px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #fff;
+    border-radius: 8px;
+    color: black;
+}
+
+.show-error {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+}
+
+.weather__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weather__temperature, .weather__units {
+    margin: 0;
+    font-size: 180px;
+    color: white;
+}
+
+.weather__description {
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.weather-info {
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 240px;
+}
+
+
