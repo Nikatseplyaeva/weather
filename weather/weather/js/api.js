@@ -5,5 +5,6 @@ export const getWeatherData = async (city) => {
         return await response.json();
     } catch (error) {
         console.error(error);
+        console.log("Ops! Something went wrong");
     }
 }
